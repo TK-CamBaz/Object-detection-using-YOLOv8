@@ -1,0 +1,1 @@
+# Object-detection-for-whiteflies-monitoring-using-YOLOV8
