@@ -4,8 +4,16 @@ Deep learning is widely applied in various fields and has achieved excellent res
 ## How
 In this case, YOLOV8[1], as a SOTA algorithm was selected to conduct object detection. All images of whiteflies on yellow sticky traps were collected using the smartphone by the author[2]. The details were described below:
 ### Set up working environment
-Install: Anaconda(A platform for managing python) --> CUDA(A package for GPU computing) --> Pytorch(A framework for Deep learning)
-
+Install:
+(1) Anaconda(A platform for managing python)
+(2) CUDA(A package for GPU computing)
+(3) Pytorch(A framework for Deep learning)
+(*) Check https://blog.csdn.net/qq_45956730/article/details/126600028 for details.
+### Prepare data
+Collect images and labels as much as possible(put more efforts on this, the greater amount for data, the better performance for the model).
+(*) LabelImg(https://github.com/HumanSignal/labelImg) and Roboflow(https://roboflow.com/) are recommendded to do this work.
+### Model training 
+(1)
 
 ## Note
 1. For more information about YOLOV8, please check: https://docs.ultralytics.com/.
