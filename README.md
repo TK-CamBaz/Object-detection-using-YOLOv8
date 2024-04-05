@@ -1,4 +1,5 @@
 # Object-detection-for-whiteflies-monitoring-using-YOLOV8
+<img src="https://github.com/TK-CamBaz/Acoustic-classification/blob/main/flowchart.png" width="400">
 ### Set up working environment
 Install:  
 (1) Anaconda(An IDE for managing packages of python)  
