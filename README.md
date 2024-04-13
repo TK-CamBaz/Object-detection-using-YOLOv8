@@ -1,5 +1,5 @@
 # Object-detection-for-whiteflies-monitoring-using-YOLOV8
-### <img src="https://github.com/TK-CamBaz/Acoustic-classification/blob/main/flowchart.png" width="400">
+### <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/flowchart.jpg" width="400">
 
 ## Set up working environment
 Install:  
