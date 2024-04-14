@@ -3,11 +3,15 @@
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/flowchart.jpg" width="400">
 
 ## Description
-(1)  
-<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/step1.jpg" width="400">
-(2)  
-(3)  
-(4)  
+(1) Objective  
+As a strategy of Integrated pest management (IPM), monitoring the occurence of pests helps to control them, preventing crops from severe loss. An efficient way to complete this task is applying deep learning (DL) to detecting pests (whiteflies, for this case).
+
+<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/step1.jpg" width="300">
+
+(2) Solution  
+Object detection is considered as a powerful technique to recognize and locate the targets. Collecting the images was first step, then LabelImg and Roboflow were used to create labels and augment/split data, seperately. After completing the whole dataset, YOLO v8 was used to train models for whitefly detection.
+(3) Results  
+
 
 ## Details for this work
 ### Set up working environment
