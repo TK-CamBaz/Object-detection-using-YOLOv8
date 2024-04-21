@@ -14,6 +14,10 @@ Object detection is considered as a powerful technique to recognize and locate t
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/2.solution.jpg" width="500">
 
 (3) Results  
+Four models (Yolov8x)
+
+<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Metrices.jpg" width="500">
+
 
 
 ## Details for this work
