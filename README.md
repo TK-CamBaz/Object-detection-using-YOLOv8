@@ -25,7 +25,7 @@ The most comprehensible part of a object detection project is the visualization.
    
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-tiny.jpg" width="500">
  
-In addition to 
+In addition to the location and size of bounding boxes, the confidence values of bounding boxes were considered as a 
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Confidence.comparison.jpg" width="350">
 
