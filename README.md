@@ -14,29 +14,17 @@ Object detection is considered as a powerful technique to recognize and locate t
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/2.solution.jpg" width="500">
 
 (3) Results  
-Four models (Yolov8x)
+Four models (yolov8x, yolov8x-p2, yolov8x-ghost and yolov8x-ghost-p2) were compared after training with the pretraind weight (yolov8x.pt). In the following table, it's obvious that yolov8x-p2 had the highest precision and mAP50-95, and yolov8x-ghost-p2 had the highest recall and mAP50.
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Metrices.jpg" width="500">
 
+The most comprehensible part of a object detection project is the visualization. Here, two photos were selected for prediction. First image contained "relative large" whitefly samples, and second contained "relative tiny" ones. 
 
+ 
+### Reference
+https://blog.csdn.net/qq_45956730/article/details/126600028 --> Set up working environment.  
+https://docs.ultralytics.com/ --> YOLOv8 official website.  
+https://www.kaggle.com/datasets?search=image --> An excellent platform to acquire various image datasets.  
+https://github.com/HumanSignal/labelImg --> A tool for creating labels for images.  
+https://roboflow.com/ --> An online platform for storing, splitting and augmenting image data.  
 
-## Details for this work
-### Set up working environment
-Install:  
-(1) Anaconda (An IDE for managing packages of python)  
-(2) CUDA (A package for GPU computing)  
-(3) Pytorch (A framework for Deep learning)  
-(4) ultralytics (YOLOV8)  
-For (1)~(3), check https://blog.csdn.net/qq_45956730/article/details/126600028 for details, then visit https://docs.ultralytics.com/ for more information about installation.
-### Prepare data
-(1) Collect images and labels. For images, Kaggle (https://www.kaggle.com/datasets?search=image) is an excellent platform to acquire various image datasets. For labels, LabelImg (https://github.com/HumanSignal/labelImg) and Roboflow (https://roboflow.com/) are recommendded to do this work.  
-(2) Set up ".yaml" file. Find the "dataset" folder (Default path: C:\Users\User\anaconda3\envs\yolov8\Lib\site-packages\ultralytics\cfg\datasets, while "Users" might be replaced by your name), create a new blank .yaml file by adding a .txt file. The format of the new file should be similar to the others (like the "coco.yaml"), and the contents includes:  
-
-path: path of images and labels  
-train: path of training set  
-val: path of validataion set  
-nc: numbers of the classes  
-names: the name of labels for images  
-
-### Model training, validation, prediction and deployment
-(1) 
