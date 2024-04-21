@@ -18,12 +18,17 @@ Four models (yolov8x, yolov8x-p2, yolov8x-ghost and yolov8x-ghost-p2) were compa
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Metrices.jpg" width="500">
 
-The most comprehensible part of a object detection project is the visualization. Here, two photos were selected for prediction. First image contained "relative large" whitefly samples, and second contained "relative tiny" ones. 
+The most comprehensible part of a object detection project is the visualization. Here, two photos were selected to display the prediction performance of models. First image contained "relative large" whitefly samples, and second contained "relative tiny" ones. In first and second comparison, the four models showed similar prediction pattern, and still a few blurred and tiny samples weren't detected.
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-large.jpg" width="500">
 
+   
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-tiny.jpg" width="500">
  
+In addition to 
+
+<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Confidence.comparison.jpg" width="350">
+
 ### Reference
 https://blog.csdn.net/qq_45956730/article/details/126600028 --> Set up working environment.  
 https://docs.ultralytics.com/ --> YOLOv8 official website.  
