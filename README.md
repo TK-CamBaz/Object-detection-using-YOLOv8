@@ -18,13 +18,12 @@ Four models (yolov8x, yolov8x-p2, yolov8x-ghost and yolov8x-ghost-p2) were compa
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Metrices.jpg" width="500">
 
-The most comprehensible part of a object detection project is the visualization. Here, two photos were selected to display the prediction performance of models. First image contained "relative large" whitefly samples, and second contained "relative tiny" ones. In first and second comparison, the four models showed similar prediction pattern, and still a few blurred and tiny samples weren't detected.
+The most comprehensible part of a object detection project is the visualization. Here, two images were selected to display the prediction performance of models. First image contained "relative large" whitefly samples, and second contained "relative tiny" ones. In the comparison of the prediction pattern, the four models detected most samples on both images, while a few blurred and tiny samples weren't detected.
 
-<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-large.jpg" width="500">
-
+<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-large.jpg" width="500"> 
    
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-tiny.jpg" width="500">
- 
+
 In addition to the location and size of bounding boxes, the confidence of bounding boxes was considered as a crucial element to describe the detection power of the model. 
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Confidence.comparison.jpg" width="350">
