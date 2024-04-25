@@ -24,7 +24,7 @@ The most comprehensible part of a object detection project is the visualization.
    
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-tiny.jpg" width="500">
 
-In addition to the location and size of bounding boxes, the confidence of bounding boxes was considered as a crucial element to describe the detection power of the model. 
+In addition to the location and size of bounding boxes, the confidence score of bounding boxes was considered as a crucial element to describe the detection reliability of the model. The following boxplot figure indicated that the models showed little diffrence of confidence score for large samples, however, Y8G (the yolov8-ghost) model slightly outperfomed other models for tiny samples, which suggested it's more potential for this task.
 
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Confidence.comparison.jpg" width="350">
 
