@@ -36,5 +36,4 @@ https://github.com/HumanSignal/labelImg --> A tool for creating labels for image
 https://roboflow.com/ --> An online platform for storing, splitting and augmenting image data.  
 
 ### Note
-The models and relative files are available in this link:  
-https://drive.google.com/drive/folders/1x9P7L0gwki15MpnoVKS2b733qYfFf8-l?usp=sharing
+The data and models are available in this repo, feel free to use, re-trained or reproduce results.
