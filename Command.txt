@@ -4,7 +4,7 @@
 ## Install necessary modules
 !pip install ultralytics --upgrade
 from ultralytics import YOLO, checks, hub
-checks()
+
 
 ## Connect colab and google drive 
 from google.colab import drive

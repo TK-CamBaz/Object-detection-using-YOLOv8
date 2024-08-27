@@ -24,12 +24,8 @@ The most comprehensible part of a object detection project is the visualization.
    
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/visual-tiny.jpg" width="500">
 
-In addition to the location of bounding boxes, the confidence score of bounding boxes was considered as a crucial role to describe the detection reliability of the model. The following boxplot figure indicated that the models showed little diffrence of confidence score for large samples, however, Y8G (the yolov8-ghost) model slightly outperfomed other models for tiny samples, which suggested it's more potential for this task.
-
-<img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/Confidence.comparison.jpg" width="350">
-
 ### Reference
-https://blog.csdn.net/qq_45956730/article/details/126600028 --> Set up working environment.  
+https://blog.csdn.net/qq_45956730/article/details/126600028 --> Set up working environment for local training.  
 https://docs.ultralytics.com/ --> YOLOv8 official website.  
 https://www.kaggle.com/datasets?search=image --> A platform to acquire various image datasets.  
 https://github.com/HumanSignal/labelImg --> A tool for creating labels for images.  
