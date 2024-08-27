@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/ColabNotebooks/DatasetV3(75%)/images/train
+val: /content/drive/MyDrive/ColabNotebooks/DatasetV3(75%)/images/val
+test: /content/drive/MyDrive/ColabNotebooks/DatasetV3(75%)/images/test
+
+nc: 1
+names: [ "Whitefly" ]

@@ -1,0 +1,28 @@
+# Due to poor GPU of my laptop, I use colab to train my models.
+# Don't forget to upload data to google drive.
+
+## Install necessary modules
+!pip install ultralytics --upgrade
+from ultralytics import YOLO, checks, hub
+checks()
+
+## Connect colab and google drive 
+from google.colab import drive
+drive.mount('/content/drive') 
+
+## Check GPU and torch is available or not
+import torch
+torch.cuda.is_available() 
+torch.cuda.get_device_name()
+
+## Model training
+# change the paths according to the location of the .yaml files, pre-trained weights and output path.
+model = YOLO("/content/drive/MyDrive/ColabNotebooks/DatasetV3/model/yolov8x-ghost.yaml").load("/content/drive/MyDrive/ColabNotebooks/YOLOV8/train2/weights/best.pt")
+results = model.train(data="/content/drive/MyDrive/ColabNotebooks/DatasetV9/whitefly.drive.yaml",
+                      epochs = 100, imgsz = 640, batch = 8, workers = 8, device = 0,
+                      project = "/content/drive/MyDrive/ColabNotebooks/YOLOV8")
+
+## Prediction
+model = YOLO("/content/drive/MyDrive/ColabNotebooks/YOLOV8/train2/weights/best.pt")
+model.predict(source = "/content/drive/MyDrive/ColabNotebooks/YOLOV8/TestingSet/visual-large.jpg", 
+show_labels = False, show_conf = False, save = True, save_txt = True, save_conf = True)
