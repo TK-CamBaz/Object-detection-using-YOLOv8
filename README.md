@@ -1,4 +1,4 @@
-# Object detection for whiteflies monitoring using YOLOv8
+# Object detection using YOLOv8
 ## Schematic diagram
 <img src="https://github.com/TK-CamBaz/Object-detection-for-whiteflies-monitoring-using-YOLOV8/blob/main/Outline/flowchart.jpg" width="400">
 
